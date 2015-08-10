@@ -257,7 +257,8 @@ PLATFORMS
 
 DEPENDENCIES
   actionview
-  bcrypt-ruby (= 3.1.5)
+  bcrypt
+  bcrypt-ruby
   bootstrap-sass (= 2.3.2.0)
   bootstrap-will_paginate (= 0.0.9)
   byebug (= 5.0.0)

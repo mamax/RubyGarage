@@ -10,7 +10,8 @@ gem 'less-rails-bootstrap'
 gem 'therubyracer'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bootstrap-will_paginate', '0.0.9'
-gem 'bcrypt-ruby', '3.1.5'
+gem 'bcrypt-ruby'
+gem 'bcrypt'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
