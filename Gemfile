@@ -6,6 +6,8 @@ gem 'rails', '4.2.3'
 # Use postgresql as the database for Active Record
 gem 'pg', '0.18.2'
 gem 'sass-rails', '~> 5.0'
+gem 'less-rails-bootstrap'
+gem 'therubyracer'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bootstrap-will_paginate', '0.0.9'
 # Use Uglifier as compressor for JavaScript assets
