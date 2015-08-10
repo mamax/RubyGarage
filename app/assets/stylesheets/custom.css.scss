@@ -75,14 +75,14 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: white;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 6px;
+  padding-top: 9px;
   font-weight: bold;
   line-height: 1;
   &:hover {
-    color: #fff;
+    color: #555;
     text-decoration: none;
   }
 }
@@ -101,7 +101,8 @@ footer {
     }
   }
   small {
-    float: left;
+    //float: left;
+    text-align: center;
   }
   ul {
     float: right;
