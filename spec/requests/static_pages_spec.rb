@@ -13,5 +13,6 @@ describe "Static pages" do
       visit root_path
       expect(page).to have_title("Ruby on Rails Test App | Home")
     end
+
   end
 end
