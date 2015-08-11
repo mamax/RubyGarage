@@ -4,7 +4,6 @@
       <%= link_to "Ruby Garage", root_path, id: "logo" %>
       <nav>
         <ul class="nav pull-right">
-          <li><%= link_to "Home", root_path %></li>
           <% if signed_in? %>
               <li><%= link_to "Sign out", signout_path, method: "delete" %></li>
           <% else %>
