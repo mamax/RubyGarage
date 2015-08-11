@@ -17,8 +17,6 @@ describe "Static pages" do
     visit root_path
     click_link "Sign in"
     expect(page).to have_title(full_title('Sign in'))
-    click_link "Home"
-    expect(page).to have_title(full_title(''))
     click_link "Sign up now!"
     expect(page).to have_title(full_title(''))
     click_link "Ruby Garage"
